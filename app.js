@@ -162,3 +162,47 @@
 //     document.write(num + " x " + i + " = " + (num * i) + "<br>");
 // }
 // Hello
+// var name = prompt("Enter your name:");
+// alert("Hello, " + name + "! Welcome to JavaScript.");
+
+// var num = prompt("Enter a number:");
+// if (num === "" || num === null) {
+//     num = 5; 
+// }
+
+// num = Number(num);
+
+// document.write("<h2>Table " + num + "</h2>");
+// for (var i = 1; i <= 10; i++) {
+//     document.write(num + " x " + i + " = " + (num * i) + "<br>");
+// }
+// Step 1: Subject names
+// var subject1 = prompt("Enter first subject:");
+// var subject2 = prompt("Enter second subject:");
+// var subject3 = prompt("Enter third subject:");
+
+// // Step 2: Total marks per subject
+// var totalMarks = 100;
+
+// // Step 3: Obtained marks
+// var marks1 = Number(prompt("Enter marks for " + subject1));
+// var marks2 = Number(prompt("Enter marks for " + subject2));
+// var marks3 = Number(prompt("Enter marks for " + subject3));
+
+// // Step 4: Calculate totals
+// var totalObtained = marks1 + marks2 + marks3;
+// var totalAll = totalMarks * 3;
+
+// // Step 5: Percentage
+// var percentage = (totalObtained / totalAll) * 100;
+
+// // Step 6: Display result
+// document.write("<h2>Result</h2>");
+// document.write(subject1 + ": " + marks1 + "/" + totalMarks + "<br>");
+// document.write(subject2 + ": " + marks2 + "/" + totalMarks + "<br>");
+// document.write(subject3 + ": " + marks3 + "/" + totalMarks + "<br><br>");
+
+// document.write("Total: " + totalObtained + "/" + totalAll + "<br>");
+// document.write("Percentage: " + percentage + "%");
+
+// Assignment # 9 - 11 USER INPUT & CONDITIONAL STATEMENT
