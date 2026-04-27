@@ -1,0 +1,113 @@
+// // Question # 3
+// // var i = 1;
+
+// // while (i <= 10) {
+// //   console.log(i);
+// //   i++;
+// // }
+
+// // Question 4
+
+// // // var number = prompt("Enter a number table:");
+// // // number = Number(number);
+
+// // // for (var i = 1; i <= 10; i++) {
+// // //   console.log(number + " x " + i + " = " + (number * i));
+// // // }
+
+// // var number = prompt("Enter a number for multiplication table:");
+// // var length = prompt("Enter table length:");
+
+// // number = Number(number);
+// // length = Number(length);
+
+// // for (var i = 1; i <= length; i++) {
+// //   console.log(number + " x " + i + " = " + (number * i));
+// // }
+
+// // Question 5
+
+// // var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+
+// // for (var i = 0; i < fruits.length; i++) {
+// //   console.log(fruits);
+// //   console.log("Element at Index " + i + " is " + fruits[i]);
+// // }
+// Question 6:
+
+// console.log("a. Counting");
+
+// for (var i = 1; i <= 15; i++) {
+//   console.log(i);
+// }
+
+// console.log("b. Reverse counting");
+
+// for (var i = 10; i >= 1; i--) {
+//   console.log(i);
+// }
+
+// console.log("c. Even");
+
+// for (var i = 0; i <= 20; i += 2) {
+//   console.log(i);
+// }
+
+// console.log("d. Odd");
+
+// for (var i = 1; i <= 19; i += 2) {
+//   console.log(i);
+// }
+
+// console.log("e. Series");
+
+// for (var i = 2; i <= 20; i += 2) {
+//   console.log(i + "k");
+// }
+// Q7
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+
+// var userInput = prompt("Welcome to ABC Bakery! What do you want to order?");
+
+// var found = false;
+
+// for (var i = 0; i < A.length; i++) {
+//   if (A[i] === userInput) {
+//     found = true;
+//     break;
+//   }
+// }
+
+// if (found) {
+//   alert(userInput + " is available in our bakery.");
+// } else {
+//   alert(userInput + " is not available in our bakery.");
+// }
+// Q8
+// var A = [24, 53, 78, 91, 12];
+
+// var max = A[0];
+
+// for (var i = 1; i < A.length; i++) {
+//   if (A[i] > max) {
+//     max = A[i];
+//   }
+// }
+
+// // console.log("Largest number is: " + max);
+// Q9
+// var A = [24, 53, 78, 91, 12];
+
+// var min = A[0];
+
+// for (var i = 1; i < A.length; i++) {
+//   if (A[i] < min) {
+//     min = A[i];
+//   }
+// }
+
+// console.log("Smallest number is: " + min);
+// Q10
+// for (var i = 5; i <= 100; i += 5) {
+//   console.log(i);
+// }
